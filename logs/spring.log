@@ -1,0 +1,540 @@
+2023-07-07T11:19:11.095+03:00  INFO 18836 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 18836 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:19:11.107+03:00  INFO 18836 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:19:11.873+03:00  INFO 18836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:19:11.883+03:00  INFO 18836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:19:12.147+03:00  INFO 18836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:19:12.152+03:00  INFO 18836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:19:12.153+03:00  INFO 18836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:19:12.208+03:00  INFO 18836 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:19:12.208+03:00  INFO 18836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2023-07-07T11:19:12.455+03:00  WARN 18836 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-07-07T11:19:12.457+03:00  INFO 18836 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07T11:19:12.471+03:00  INFO 18836 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-07T11:19:12.481+03:00 ERROR 18836 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-07-07T11:26:47.326+03:00  INFO 6564 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 6564 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:26:47.328+03:00  INFO 6564 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:26:47.918+03:00  INFO 6564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:26:47.930+03:00  INFO 6564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:26:48.234+03:00  INFO 6564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:26:48.240+03:00  INFO 6564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:26:48.240+03:00  INFO 6564 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:26:48.292+03:00  INFO 6564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:26:48.293+03:00  INFO 6564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
+2023-07-07T11:26:48.537+03:00  WARN 6564 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-07-07T11:26:48.540+03:00  INFO 6564 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07T11:26:48.556+03:00  INFO 6564 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-07T11:26:48.567+03:00 ERROR 6564 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-07-07T11:27:53.810+03:00  INFO 15744 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 15744 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:27:53.811+03:00  INFO 15744 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:27:54.264+03:00  INFO 15744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:27:54.274+03:00  INFO 15744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:27:54.540+03:00  INFO 15744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:27:54.545+03:00  INFO 15744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:27:54.546+03:00  INFO 15744 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:27:54.599+03:00  INFO 15744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:27:54.599+03:00  INFO 15744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 755 ms
+2023-07-07T11:27:54.825+03:00  WARN 15744 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-07-07T11:27:54.828+03:00  INFO 15744 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07T11:27:54.846+03:00  INFO 15744 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-07T11:27:54.855+03:00 ERROR 15744 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-07-07T11:27:58.436+03:00  INFO 10216 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 10216 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:27:58.437+03:00  INFO 10216 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:27:58.954+03:00  INFO 10216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:27:58.965+03:00  INFO 10216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:27:59.263+03:00  INFO 10216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:27:59.269+03:00  INFO 10216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:27:59.269+03:00  INFO 10216 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:27:59.325+03:00  INFO 10216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:27:59.325+03:00  INFO 10216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 858 ms
+2023-07-07T11:27:59.637+03:00  WARN 10216 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-07-07T11:27:59.639+03:00  INFO 10216 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07T11:27:59.655+03:00  INFO 10216 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-07T11:27:59.669+03:00 ERROR 10216 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-07-07T11:30:35.977+03:00  INFO 9620 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 9620 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:30:35.979+03:00  INFO 9620 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:30:36.518+03:00  INFO 9620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:30:36.530+03:00  INFO 9620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:30:36.837+03:00  INFO 9620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:30:36.844+03:00  INFO 9620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:30:36.844+03:00  INFO 9620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:30:36.914+03:00  INFO 9620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:30:36.914+03:00  INFO 9620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 899 ms
+2023-07-07T11:30:37.388+03:00  INFO 9620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:30:37.594+03:00  INFO 9620 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bfa1eb5
+2023-07-07T11:30:37.595+03:00  INFO 9620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:30:37.680+03:00  INFO 9620 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:30:37.737+03:00  INFO 9620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:30:37.748+03:00  INFO 9620 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 2.192 seconds (process running for 2.774)
+2023-07-07T11:30:38.302+03:00  INFO 9620 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:30:38.302+03:00  INFO 9620 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:30:38.303+03:00  INFO 9620 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:30:45.355+03:00  INFO 9620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:30:45.362+03:00  INFO 9620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:36:12.554+03:00  INFO 15884 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 15884 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:36:12.569+03:00  INFO 15884 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:36:13.226+03:00  INFO 15884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:36:13.239+03:00  INFO 15884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:36:13.524+03:00  INFO 15884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:36:13.530+03:00  INFO 15884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:36:13.530+03:00  INFO 15884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:36:13.582+03:00  INFO 15884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:36:13.582+03:00  INFO 15884 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 923 ms
+2023-07-07T11:36:13.980+03:00  INFO 15884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:36:14.149+03:00  INFO 15884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@349312d5
+2023-07-07T11:36:14.150+03:00  INFO 15884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:36:14.229+03:00  INFO 15884 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:36:14.273+03:00  INFO 15884 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:36:14.281+03:00  INFO 15884 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 2.181 seconds (process running for 2.55)
+2023-07-07T11:36:14.758+03:00  INFO 15884 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:36:14.758+03:00  INFO 15884 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:36:14.759+03:00  INFO 15884 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:36:26.498+03:00  INFO 15884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:36:26.503+03:00  INFO 15884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:42:23.776+03:00  INFO 8116 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 8116 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:42:23.777+03:00  INFO 8116 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:42:24.233+03:00  INFO 8116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:42:24.243+03:00  INFO 8116 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:42:24.503+03:00  INFO 8116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:42:24.508+03:00  INFO 8116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:42:24.509+03:00  INFO 8116 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:42:24.569+03:00  INFO 8116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:42:24.569+03:00  INFO 8116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 761 ms
+2023-07-07T11:42:24.968+03:00  INFO 8116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:42:25.140+03:00  INFO 8116 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@774f2992
+2023-07-07T11:42:25.142+03:00  INFO 8116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:42:25.216+03:00  INFO 8116 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:42:25.259+03:00  INFO 8116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:42:25.267+03:00  INFO 8116 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.717 seconds (process running for 2.025)
+2023-07-07T11:42:25.407+03:00  INFO 8116 --- [RMI TCP Connection(2)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:42:25.407+03:00  INFO 8116 --- [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:42:25.410+03:00  INFO 8116 --- [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:43:09.485+03:00  INFO 8116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:43:09.492+03:00  INFO 8116 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:43:29.444+03:00  INFO 9384 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Starting MoneyTransferServiceApplicationTests using Java 17.0.7 with PID 9384 (started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:43:29.446+03:00  INFO 9384 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:43:30.723+03:00  INFO 9384 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:43:30.737+03:00  INFO 9384 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:43:31.534+03:00  INFO 9384 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:43:31.774+03:00  INFO 9384 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@273293c8
+2023-07-07T11:43:31.778+03:00  INFO 9384 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:43:31.962+03:00  INFO 9384 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:43:32.016+03:00  INFO 9384 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Started MoneyTransferServiceApplicationTests in 2.821 seconds (process running for 3.752)
+2023-07-07T11:43:32.757+03:00  INFO 9384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:43:32.765+03:00  INFO 9384 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:43:58.528+03:00  INFO 1244 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 1244 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:43:58.529+03:00  INFO 1244 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:43:58.990+03:00  INFO 1244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:43:58.999+03:00  INFO 1244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:43:59.276+03:00  INFO 1244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:43:59.283+03:00  INFO 1244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:43:59.283+03:00  INFO 1244 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:43:59.339+03:00  INFO 1244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:43:59.340+03:00  INFO 1244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 781 ms
+2023-07-07T11:43:59.755+03:00  INFO 1244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:43:59.932+03:00  INFO 1244 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d88c10
+2023-07-07T11:43:59.933+03:00  INFO 1244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:44:00.005+03:00  INFO 1244 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:44:00.050+03:00  INFO 1244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:44:00.059+03:00  INFO 1244 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.76 seconds (process running for 2.136)
+2023-07-07T11:44:00.404+03:00  INFO 1244 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:44:00.405+03:00  INFO 1244 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:44:00.406+03:00  INFO 1244 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:49:47.209+03:00  INFO 1244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:49:47.214+03:00  INFO 1244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:49:52.574+03:00  INFO 17992 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 17992 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:49:52.575+03:00  INFO 17992 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:49:53.066+03:00  INFO 17992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:49:53.081+03:00  INFO 17992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:49:53.357+03:00  INFO 17992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:49:53.362+03:00  INFO 17992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:49:53.363+03:00  INFO 17992 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:49:53.414+03:00  INFO 17992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:49:53.414+03:00  INFO 17992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 809 ms
+2023-07-07T11:49:53.794+03:00  INFO 17992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:49:53.964+03:00  INFO 17992 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3611153f
+2023-07-07T11:49:53.965+03:00  INFO 17992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:49:54.039+03:00  INFO 17992 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:49:54.082+03:00  INFO 17992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:49:54.091+03:00  INFO 17992 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.756 seconds (process running for 2.081)
+2023-07-07T11:49:54.351+03:00  INFO 17992 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:49:54.351+03:00  INFO 17992 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:49:54.352+03:00  INFO 17992 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:50:06.295+03:00  INFO 17992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:50:06.301+03:00  INFO 17992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:50:40.711+03:00  INFO 23476 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 23476 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:50:40.713+03:00  INFO 23476 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:50:41.178+03:00  INFO 23476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:50:41.191+03:00  INFO 23476 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:50:41.451+03:00  INFO 23476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:50:41.457+03:00  INFO 23476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:50:41.457+03:00  INFO 23476 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:50:41.511+03:00  INFO 23476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:50:41.511+03:00  INFO 23476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 767 ms
+2023-07-07T11:50:41.884+03:00  INFO 23476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:50:42.051+03:00  INFO 23476 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3611153f
+2023-07-07T11:50:42.052+03:00  INFO 23476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:50:42.127+03:00  INFO 23476 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:50:42.170+03:00  INFO 23476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:50:42.178+03:00  INFO 23476 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.705 seconds (process running for 2.023)
+2023-07-07T11:50:42.296+03:00  INFO 23476 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:50:42.297+03:00  INFO 23476 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:50:42.298+03:00  INFO 23476 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:50:47.731+03:00  INFO 23476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:50:47.735+03:00  INFO 23476 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:51:08.659+03:00  INFO 16088 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Starting MoneyTransferServiceApplicationTests using Java 17.0.7 with PID 16088 (started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:51:08.661+03:00  INFO 16088 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:51:09.259+03:00  INFO 16088 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:51:09.272+03:00  INFO 16088 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:51:10.066+03:00  INFO 16088 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:51:10.294+03:00  INFO 16088 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21a9f95b
+2023-07-07T11:51:10.296+03:00  INFO 16088 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:51:10.429+03:00  INFO 16088 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:51:10.482+03:00  INFO 16088 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Started MoneyTransferServiceApplicationTests in 2.013 seconds (process running for 2.854)
+2023-07-07T11:51:11.154+03:00  INFO 16088 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:51:11.161+03:00  INFO 16088 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:51:24.777+03:00  INFO 10216 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 10216 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:51:24.778+03:00  INFO 10216 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:51:25.246+03:00  INFO 10216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:51:25.260+03:00  INFO 10216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:51:25.520+03:00  INFO 10216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:51:25.525+03:00  INFO 10216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:51:25.525+03:00  INFO 10216 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:51:25.574+03:00  INFO 10216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:51:25.575+03:00  INFO 10216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 764 ms
+2023-07-07T11:51:25.971+03:00  INFO 10216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:51:26.139+03:00  INFO 10216 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@674184d
+2023-07-07T11:51:26.140+03:00  INFO 10216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:51:26.215+03:00  INFO 10216 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:51:26.259+03:00  INFO 10216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:51:26.267+03:00  INFO 10216 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.734 seconds (process running for 2.032)
+2023-07-07T11:51:26.377+03:00  INFO 10216 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:51:26.377+03:00  INFO 10216 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:51:26.379+03:00  INFO 10216 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:51:38.214+03:00  INFO 10216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:51:38.219+03:00  INFO 10216 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:52:52.719+03:00  INFO 6020 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 6020 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:52:52.721+03:00  INFO 6020 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:52:53.205+03:00  INFO 6020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:52:53.214+03:00  INFO 6020 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:52:53.472+03:00  INFO 6020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:52:53.477+03:00  INFO 6020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:52:53.477+03:00  INFO 6020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:52:53.530+03:00  INFO 6020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:52:53.531+03:00  INFO 6020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2023-07-07T11:52:53.952+03:00  INFO 6020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:52:54.144+03:00  INFO 6020 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a2e1e52
+2023-07-07T11:52:54.145+03:00  INFO 6020 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:52:54.225+03:00  INFO 6020 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:52:54.278+03:00  INFO 6020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:52:54.292+03:00  INFO 6020 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.817 seconds (process running for 2.147)
+2023-07-07T11:52:54.792+03:00  INFO 6020 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:52:54.792+03:00  INFO 6020 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:52:54.793+03:00  INFO 6020 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:56:00.493+03:00  INFO 6020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:56:00.499+03:00  INFO 6020 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T11:59:21.115+03:00  INFO 11056 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 11056 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T11:59:21.117+03:00  INFO 11056 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T11:59:21.582+03:00  INFO 11056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T11:59:21.594+03:00  INFO 11056 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T11:59:21.865+03:00  INFO 11056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T11:59:21.871+03:00  INFO 11056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T11:59:21.871+03:00  INFO 11056 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T11:59:21.922+03:00  INFO 11056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T11:59:21.922+03:00  INFO 11056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 775 ms
+2023-07-07T11:59:22.317+03:00  INFO 11056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T11:59:22.482+03:00  INFO 11056 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47eaf55c
+2023-07-07T11:59:22.483+03:00  INFO 11056 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T11:59:22.561+03:00  INFO 11056 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T11:59:22.605+03:00  INFO 11056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T11:59:22.612+03:00  INFO 11056 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.722 seconds (process running for 2.074)
+2023-07-07T11:59:22.700+03:00  INFO 11056 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T11:59:22.700+03:00  INFO 11056 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T11:59:22.701+03:00  INFO 11056 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T11:59:48.248+03:00  INFO 11056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T11:59:48.254+03:00  INFO 11056 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T12:25:09.748+03:00  INFO 13148 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Starting MoneyTransferServiceApplicationTests using Java 17.0.7 with PID 13148 (started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T12:25:09.749+03:00  INFO 13148 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T12:25:10.404+03:00  INFO 13148 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07T12:25:10.422+03:00  INFO 13148 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2023-07-07T12:25:10.736+03:00  INFO 13148 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T12:25:10.984+03:00  INFO 13148 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bb8ead8
+2023-07-07T12:25:10.985+03:00  INFO 13148 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T12:25:11.017+03:00  INFO 13148 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07T12:25:11.057+03:00  INFO 13148 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-07T12:25:11.059+03:00  INFO 13148 --- [Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-07T12:25:11.177+03:00  INFO 13148 --- [Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:25:11.299+03:00  INFO 13148 --- [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-07T12:25:11.342+03:00  WARN 13148 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-07T12:25:11.402+03:00  INFO 13148 --- [Test worker] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:25:11.538+03:00  INFO 13148 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07T12:25:11.542+03:00  INFO 13148 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:25:11.670+03:00  WARN 13148 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07T12:25:12.126+03:00  INFO 13148 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T12:25:12.177+03:00  INFO 13148 --- [Test worker] p.m.MoneyTransferServiceApplicationTests : Started MoneyTransferServiceApplicationTests in 2.618 seconds (process running for 3.458)
+2023-07-07T12:25:12.725+03:00  INFO 13148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:25:12.726+03:00  INFO 13148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T12:25:12.734+03:00  INFO 13148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T12:25:21.296+03:00  INFO 24520 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 24520 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T12:25:21.298+03:00  INFO 24520 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T12:25:21.774+03:00  INFO 24520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07T12:25:21.787+03:00  INFO 24520 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-07-07T12:25:22.064+03:00  INFO 24520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T12:25:22.069+03:00  INFO 24520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T12:25:22.069+03:00  INFO 24520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T12:25:22.126+03:00  INFO 24520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T12:25:22.127+03:00  INFO 24520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 802 ms
+2023-07-07T12:25:22.235+03:00  INFO 24520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T12:25:22.403+03:00  INFO 24520 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e6748ae
+2023-07-07T12:25:22.404+03:00  INFO 24520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T12:25:22.428+03:00  INFO 24520 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07T12:25:22.457+03:00  INFO 24520 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-07T12:25:22.459+03:00  INFO 24520 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-07T12:25:22.533+03:00  INFO 24520 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:25:22.622+03:00  INFO 24520 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-07T12:25:22.657+03:00  WARN 24520 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-07-07T12:25:22.705+03:00  INFO 24520 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:25:22.829+03:00  INFO 24520 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07T12:25:22.832+03:00  INFO 24520 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:25:22.870+03:00  WARN 24520 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07T12:25:23.156+03:00  INFO 24520 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T12:25:23.196+03:00  INFO 24520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T12:25:23.206+03:00  INFO 24520 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 2.182 seconds (process running for 2.525)
+2023-07-07T12:25:23.507+03:00  INFO 24520 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T12:25:23.507+03:00  INFO 24520 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T12:25:23.508+03:00  INFO 24520 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-07T12:28:50.065+03:00  INFO 24520 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:28:50.067+03:00  INFO 24520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T12:28:50.072+03:00  INFO 24520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T12:28:51.933+03:00  INFO 7696 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 7696 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T12:28:51.936+03:00  INFO 7696 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T12:28:52.466+03:00  INFO 7696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07T12:28:52.478+03:00  INFO 7696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-07-07T12:28:52.757+03:00  INFO 7696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T12:28:52.762+03:00  INFO 7696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T12:28:52.762+03:00  INFO 7696 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T12:28:52.821+03:00  INFO 7696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T12:28:52.821+03:00  INFO 7696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 857 ms
+2023-07-07T12:28:52.941+03:00  INFO 7696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T12:28:53.146+03:00  INFO 7696 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@134a8ead
+2023-07-07T12:28:53.148+03:00  INFO 7696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T12:28:53.176+03:00  INFO 7696 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07T12:28:53.210+03:00  INFO 7696 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-07T12:28:53.211+03:00  INFO 7696 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-07T12:28:53.286+03:00  INFO 7696 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:28:53.386+03:00  INFO 7696 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-07T12:28:53.494+03:00  INFO 7696 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T12:28:53.628+03:00  INFO 7696 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07T12:28:53.631+03:00  INFO 7696 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:28:53.670+03:00  WARN 7696 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07T12:28:53.971+03:00  INFO 7696 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T12:28:54.017+03:00  INFO 7696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T12:28:54.026+03:00  INFO 7696 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 2.328 seconds (process running for 2.698)
+2023-07-07T12:28:54.128+03:00  INFO 7696 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T12:28:54.128+03:00  INFO 7696 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T12:28:54.129+03:00  INFO 7696 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T12:29:09.336+03:00  INFO 7696 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T12:29:09.338+03:00  INFO 7696 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T12:29:09.343+03:00  INFO 7696 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T12:56:56.658+03:00  INFO 18580 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 18580 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T12:56:56.665+03:00  INFO 18580 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T12:56:57.148+03:00  INFO 18580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T12:56:57.161+03:00  INFO 18580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+2023-07-07T12:56:57.431+03:00  INFO 18580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T12:56:57.437+03:00  INFO 18580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T12:56:57.437+03:00  INFO 18580 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T12:56:57.490+03:00  INFO 18580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T12:56:57.490+03:00  INFO 18580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 796 ms
+2023-07-07T12:56:57.890+03:00  INFO 18580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T12:56:58.064+03:00  INFO 18580 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74a85515
+2023-07-07T12:56:58.066+03:00  INFO 18580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T12:56:58.146+03:00  INFO 18580 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T12:56:58.198+03:00  INFO 18580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T12:56:58.209+03:00  INFO 18580 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.791 seconds (process running for 2.241)
+2023-07-07T12:56:58.525+03:00  INFO 18580 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T12:56:58.525+03:00  INFO 18580 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T12:56:58.526+03:00  INFO 18580 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-07-07T12:58:54.332+03:00  INFO 18580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T12:58:54.337+03:00  INFO 18580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T13:03:20.568+03:00  INFO 2684 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 2684 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T13:03:20.570+03:00  INFO 2684 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T13:03:21.037+03:00  INFO 2684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T13:03:21.048+03:00  INFO 2684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T13:03:21.311+03:00  INFO 2684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T13:03:21.318+03:00  INFO 2684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T13:03:21.318+03:00  INFO 2684 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T13:03:21.370+03:00  INFO 2684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T13:03:21.370+03:00  INFO 2684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2023-07-07T13:03:21.764+03:00  INFO 2684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T13:03:21.948+03:00  INFO 2684 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77cddc0c
+2023-07-07T13:03:21.949+03:00  INFO 2684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T13:03:22.030+03:00  INFO 2684 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T13:03:22.077+03:00  INFO 2684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T13:03:22.085+03:00  INFO 2684 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.759 seconds (process running for 2.135)
+2023-07-07T13:03:22.425+03:00  INFO 2684 --- [RMI TCP Connection(4)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T13:03:22.426+03:00  INFO 2684 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T13:03:22.428+03:00  INFO 2684 --- [RMI TCP Connection(4)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-07T13:03:30.258+03:00  INFO 2684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T13:03:30.263+03:00  INFO 2684 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T13:03:42.140+03:00  INFO 23556 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 23556 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T13:03:42.141+03:00  INFO 23556 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T13:03:42.616+03:00  INFO 23556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T13:03:42.627+03:00  INFO 23556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T13:03:42.896+03:00  INFO 23556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T13:03:42.902+03:00  INFO 23556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T13:03:42.902+03:00  INFO 23556 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T13:03:42.955+03:00  INFO 23556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T13:03:42.956+03:00  INFO 23556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 784 ms
+2023-07-07T13:03:43.368+03:00  INFO 23556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T13:03:43.549+03:00  INFO 23556 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e3252
+2023-07-07T13:03:43.550+03:00  INFO 23556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T13:03:43.630+03:00  INFO 23556 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T13:03:43.679+03:00  INFO 23556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T13:03:43.687+03:00  INFO 23556 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 1.793 seconds (process running for 2.124)
+2023-07-07T13:03:43.909+03:00  INFO 23556 --- [RMI TCP Connection(2)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T13:03:43.909+03:00  INFO 23556 --- [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T13:03:43.911+03:00  INFO 23556 --- [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-07T13:03:48.854+03:00  INFO 23556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T13:03:48.860+03:00  INFO 23556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-07-07T13:04:50.073+03:00  INFO 6800 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 6800 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T13:04:50.076+03:00  INFO 6800 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T13:04:50.549+03:00  INFO 6800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-07-07T13:04:50.559+03:00  INFO 6800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-07-07T13:04:50.822+03:00  INFO 6800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T13:04:50.826+03:00  INFO 6800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T13:04:50.828+03:00  INFO 6800 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T13:04:50.880+03:00  INFO 6800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T13:04:50.881+03:00  INFO 6800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 771 ms
+2023-07-07T13:04:51.116+03:00  WARN 6800 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2023-07-07T13:04:51.119+03:00  INFO 6800 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-07T13:04:51.132+03:00  INFO 6800 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-07T13:04:51.143+03:00 ERROR 6800 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-07-07T13:24:29.646+03:00  INFO 1492 --- [main] m.p.m.MoneyTransferServiceApplication    : Starting MoneyTransferServiceApplication using Java 17.0.7 with PID 1492 (F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService\build\classes\java\main started by Kalivan in F:\Idea\javas work\DZ\Spring Boot and\MoneyTransferService)
+2023-07-07T13:24:29.651+03:00  INFO 1492 --- [main] m.p.m.MoneyTransferServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-07-07T13:24:30.172+03:00  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-07T13:24:30.199+03:00  INFO 1492 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-07-07T13:24:30.475+03:00  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-07-07T13:24:30.481+03:00  INFO 1492 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-07T13:24:30.481+03:00  INFO 1492 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-07-07T13:24:30.533+03:00  INFO 1492 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-07T13:24:30.534+03:00  INFO 1492 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2023-07-07T13:24:30.647+03:00  INFO 1492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-07-07T13:24:30.816+03:00  INFO 1492 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57e03347
+2023-07-07T13:24:30.818+03:00  INFO 1492 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-07-07T13:24:30.840+03:00  INFO 1492 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-07T13:24:30.867+03:00  INFO 1492 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-07-07T13:24:30.869+03:00  INFO 1492 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-07-07T13:24:30.948+03:00  INFO 1492 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T13:24:31.054+03:00  INFO 1492 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-07T13:24:31.204+03:00  INFO 1492 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-07-07T13:24:31.566+03:00  INFO 1492 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-07T13:24:31.568+03:00  INFO 1492 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T13:24:31.591+03:00  WARN 1492 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-07T13:24:31.960+03:00  INFO 1492 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-07-07T13:24:32.002+03:00  INFO 1492 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-07T13:24:32.010+03:00  INFO 1492 --- [main] m.p.m.MoneyTransferServiceApplication    : Started MoneyTransferServiceApplication in 2.894 seconds (process running for 3.456)
+2023-07-07T13:24:32.099+03:00  INFO 1492 --- [RMI TCP Connection(3)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-07T13:24:32.099+03:00  INFO 1492 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-07T13:24:32.100+03:00  INFO 1492 --- [RMI TCP Connection(3)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-07T13:37:52.961+03:00  INFO 1492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-07T13:37:52.963+03:00  INFO 1492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-07-07T13:37:52.969+03:00  INFO 1492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
