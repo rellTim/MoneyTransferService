@@ -2,6 +2,7 @@ package my.project.moneytransferservice.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -15,19 +16,23 @@ import java.time.LocalDateTime;
 public class CardEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String id;
+    private Long id;
+    @Column(name = "operation_id")
+    private String operationId;
     @Column(name = "card_from_number")
-    private int cardFromNumber;
+    private String cardFromNumber;
     @Column(name = "card_to_number")
-    private int cardToNumber;
+    private String cardToNumber;
     @Column(name = "card_cvv")
-    private int cardCvv;
+    private String cardCvv;
     @Column(name = "card_from_valid_till")
-    private int cardFromValidTill;
+    private String cardFromValidTill;
     @Column(name = "value")
     private int value;
     @Column(name = "commission")
     private int commissionTranslate;
+    @Column(name = "currency")
+    private String currency;
     @Column(name = "time_transfer")
     private LocalDateTime timeTranslate;
     @Column(name = "translated")

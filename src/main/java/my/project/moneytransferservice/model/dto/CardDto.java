@@ -2,29 +2,30 @@ package my.project.moneytransferservice.model.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
-import jakarta.validation.constraints.Size;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
+@Builder(toBuilder = true)
 public class CardDto {
+    private String operationId;
     @Pattern(regexp = "^\\d{16}$")
     @NotBlank
-    private int fromNumberCard;
+    private String cardFromNumber;
     @Pattern(regexp = "^\\d{16}$")
     @NotBlank
-    private int toNumberCard;
+    private String cardToNumber;
     @NotBlank
     @Pattern(regexp = "^\\d{3}$")
-    private int cardCVV;
+    private String cardCvv;
     @Pattern(regexp = "^\\d{4}$")
-    @NotBlank
-    private int validData;
-    @NotBlank
-    @Size(min = 1, max = 1_000_000_000)
-    private int countTranslate;
+    private String cardFromValidTill;
+    private int value;
     private int commissionTranslate;
+    private String currency;
     private LocalDateTime timeTranslate;
     private boolean isTranslation;
+    private Amount amount;
 }
